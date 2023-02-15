@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: rgb(224, 183, 221);
+    color: rgb(73, 25, 74)
+}
+nav a{
+    margin: 0 2rem;
+    color:rgb(73, 25, 74);
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(34, 55, 118);
+    font-size: 1.5rem;
+}
+
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    color: brown;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
