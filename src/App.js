@@ -2,8 +2,8 @@
 import React from 'react';
 import logo from './img/logo.png';
 import './App.css';
-import './slide.css'
-import Carousel from './slide';
+import './Components/slide'
+import Carousel from './Components/slide';
 import  Navbar from './Components/navbar'
 
 function App() {

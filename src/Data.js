@@ -8,7 +8,7 @@ export const images=[
     {title:"Buffet anniversaire",description:"Différents petits délices sucrés et salés, un gateau d'anniversaire, plusieurs saveurs disponibles", img:Buffet2},
     {title:"Buffet baby shower",description:"Buffet avec friandises aux couleurs bleu et rose, un grand gateau coloré", img:Buffet},
     {title:"Buffet occasion",description:"Buffet avec multiples choix de petits canapés, mini gateaux, mini quiches, mini pizzas,...", img:Buffet3},
-    {title:"Buffet occasion",description:"Buffet aux choix pour toute occasion ", img:Buffet4},
-    {title:"Buffet amis",description:"Buffet avec multiples choix de petits canapés, mini gateaux, mini quiches, mini pizzas,...", img:Buffet5},
+    {title:"Buffet toute occasion",description:"Buffet aux choix pour toute occasion ", img:Buffet4},
+    {title:"Buffet amis ou collègues",description:"Buffet avec multiples choix de petits canapés, mini gateaux, mini quiches, mini pizzas,...", img:Buffet5},
 
 ]
