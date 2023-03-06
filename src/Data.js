@@ -12,3 +12,7 @@ export const images=[
     {title:"Buffet amis ou collègues",description:"Buffet avec multiples choix de petits canapés, mini gateaux, mini quiches, mini pizzas,...", img:Buffet5},
 
 ]
+
+
+//MenuData 
+export const MenuData = 
