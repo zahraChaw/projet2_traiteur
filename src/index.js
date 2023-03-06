@@ -7,24 +7,30 @@ import Home from "./Components/slide";
 import Services from "./Components/Services"
 import Contact from "./Components/Contact"
 import Plat from "./Components/Plat";
+import Menu from "./Components/Menus";
+import App from "./App";
 
 
 
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="service" element={<Services/>} />
-          <Route path="plat" element={<Plat />} />
-          <Route path="contact" element={<Contact />} />
+// export default function App() {
+//   return (
+//     <>
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Layout />}>
+//           <Route index element={<Home />} />
+//           <Route path="service" element={<Services/>} />
+//           <Route path="plat" element={<Plat />} />
+//           <Route path="contact" element={<Contact />} />
           
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
-}
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//     {/* <Menu/> */}
+// </>
+    
+//   );
+// }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

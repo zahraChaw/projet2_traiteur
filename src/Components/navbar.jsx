@@ -1,7 +1,7 @@
 /*react-icons/fa: package pour utiliser l'icone du menu burger */
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
-import './navbar.css'
+import '../styles/navbar.css'
 import { Outlet, Link } from "react-router-dom";
 
 
@@ -20,21 +20,21 @@ function Navbar() {
                 <nav>
                     <ul>
                         <li>
-                            <Link className="" to="/">Accueil</Link>
+                        <a href="#">Accueil</a>
                         </li>
                         <li>
-                            <Link to="/service">Nos services</Link>
+                        <a href="#service">Nos services</a>
                         </li>
                         <li>
-                            <Link to="/plat">Plats et desserts</Link>
+                        <a href="#">Plats et desserts</a>
                         </li>
                         <li>
-                            <Link to="/contact">Contact</Link>
+                            <a href="#">Contact</a>
                         </li>
                     </ul>
                 </nav>
             </header>
-            <Outlet />
+           
         </>
 
     )
@@ -59,3 +59,28 @@ export default Navbar;
 //             <button className="nav-btn" onClick={showNavbar}>
 //                 <FaBars />
 //             </button>
+
+{/* <>
+<header>
+    <div className="logo">
+        <img src="../logoZ.png" alt="logo" />
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <Link className="" to="/">Accueil</Link>
+            </li>
+            <li>
+                <Link to="/service">Nos services</Link>
+            </li>
+            <li>
+                <Link to="/plat">Plats et desserts</Link>
+            </li>
+            <li>
+                <Link to="/contact">Contact</Link>
+            </li>
+        </ul>
+    </nav>
+</header>
+<Outlet />
+</> */}

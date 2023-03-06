@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./slide.css";
+import '../styles/slide.css';
 import { images } from "../Data";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
