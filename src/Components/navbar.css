@@ -18,13 +18,18 @@ header img{
     width: 100%;
     height: 110px;
 }
-nav a{
+ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul a{
     margin: 0 2rem;
     color:rgb(73, 25, 74);
-    text-decoration: none;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav a:hover {
-    color: rgb(34, 55, 118);
+    color: #cf7979;
     font-size: 1.2rem;
 }
 
