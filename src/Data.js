@@ -6,6 +6,8 @@ import Buffet5 from './img/buffet5.jpg';
 import separation from './img/separate.png';
 import cupcake_noisettes from './img/cupcake_noisettes.jpg';
 import cupcake_bleu from './img/cupcake_bleu.jpg';
+import mini_tartelettes_choco from './img/mini-tartelettes-choco.jpg';
+import macaronsRose from './img/macaronsRose.jpg';
 
 export const images = [
     { title: "Buffet anniversaire", description: "Différents petits délices sucrés et salés, un gateau d'anniversaire, plusieurs saveurs disponibles", img: Buffet2 },
@@ -35,14 +37,14 @@ export const MenuData = {
             description: 'lorem ipsum bla bla'
         },
         {
-            image: Buffet3,
+            image: mini_tartelettes_choco,
             nom: 'mini tartelettes',
             prix: '2.90 €',
             description: 'lorem ipsum bla bla'
         },
         {
-            image: Buffet3,
-            nom: 'mini tartelettes',
+            image: macaronsRose,
+            nom: 'Macarons',
             prix: '2.90 €',
             description: 'lorem ipsum bla bla'
         }

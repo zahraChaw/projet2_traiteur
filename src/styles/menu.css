@@ -19,13 +19,13 @@ section {
 }
 
 .imgPlat {
-    width: 95%;
+    width: 80%;
     height: 320px;
 }
 
 .grid-plats {
     display: grid;
-    gap: 10px;
+    gap: 5px;
     grid-template-columns: repeat(4, 1fr [col-start]);
     margin: 10px;
 }
