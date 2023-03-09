@@ -1,6 +1,13 @@
+import Menu from "./Menus";
 
 const Blogs = () => {
-    return <h1>Nos services</h1>;
+    return 
+    <div>
+      <h1>Nos services</h1>;
+      <menu />
+    </div>
+    
+    
   };
   
   export default Blogs;
